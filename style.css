@@ -14,36 +14,14 @@ h1{
     margin-top: 200px;
 }
 
-.snake img{
+.choice img{
     width:200px;
     height:230px;
     border:1px solid black;
     border-radius: 20px;
     cursor: pointer;
 }
-.snake img:hover{
-    transition: 0.5s;
-    box-shadow: 0 6px 0 0 rgb(147, 154, 149);
-}
-.water img{
-    width:200px;
-    height:230px;
-    border:1px solid black;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.water img:hover{
-    transition: 0.5s;
-    box-shadow: 0 6px 0 0 rgb(147, 154, 149);
-}
-.gun img{
-    width:200px;
-    height:230px;
-    border:1px solid black;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.gun img:hover{
+.choice img:hover{
     transition: 0.5s;
     box-shadow: 0 6px 0 0 rgb(147, 154, 149);
 }
@@ -61,7 +39,7 @@ h1{
     font-size: 40px;
 }
 h2{
-    margin:100px 0 0 850px;
+    margin:100px 0 0 750px;
     background-color: black;
     color:white;
     display: inline-flex;
